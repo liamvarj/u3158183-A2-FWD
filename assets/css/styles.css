@@ -1,0 +1,149 @@
+/* imported fonts and CSS reset*/
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Kanit:900');
+
+/* styling for more general tags at tags at start of document */
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Lato';
+}
+
+p {
+    font-family: 'Lato';
+}
+
+cite {
+    font-style: italic;
+    font-size: 12px;
+}
+
+ol {
+    font-style: italic;
+}
+
+footer a {
+    color: #000000;
+}
+
+footer p {
+    color: #000000;
+}
+
+/* using more specific selectors for targeting */
+nav ul li a{
+    text-decoration: none;
+	border: 1px solid #e5e9f3;
+	float: left;
+    display: inline-block;
+    width: 175px;
+    text-align: center;
+    padding: 6px 10px;
+    margin-right: 111px;
+    color: black;
+    font-family: 'Lato';
+    font-size: 15px;
+}
+
+    nav ul li a:hover{
+        transition-duration: 0.4s;
+        border: 1px solid #ffffff;
+        background-color: #E3BC6E;
+        color:  #ffffff;
+    }
+
+    nav ul li a:visited{
+        text-decoration: none;
+        
+    }
+
+/* wrappers for styling and controlling width */
+/* selectors using classes placed in middle */
+.header-wrapper{
+	margin: 0;
+	clear: both;
+	width: 100%;
+	height: 90px;
+	margin-bottom: 15px;
+	position: fixed;
+	top: 0;	
+    background-color: #DAA63D;
+    border-bottom-style:  solid;
+	border-bottom-color:  #e5e9f3;
+	border-bottom-width: 1px;
+}
+
+.main-wrapper{
+	background-color: #E3E2E2;
+	width: 100%;
+	padding-top: 100px;
+    border-bottom-style:  solid;
+	border-bottom-color:  #e5e9f3;
+	border-bottom-width: 1px;
+}
+
+.footer-wrapper{
+	margin: 0;
+	clear: both; 
+    background-color: #DAA63D;
+	height: 90px;
+	left: 0;
+    bottom: 0;
+}
+
+/* wrapper for placing content within specific width */
+.inner{
+	margin: 0 auto;
+	width: 960px;	
+}
+
+/* Selectors using Id's placed at bottom due to specificity */
+#head {
+    font-family: 'kanit';
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#logo-sub {
+    font-size: 10px;
+    margin-bottom: 2px;
+    font-family: 'kanit';
+}
+
+#img2 {
+	margin: 5px 0px 5px 5px; 
+	border: 1px black solid;
+}
+
+#img1 {
+    width: 40%;
+	margin: 5px 0px 5px 5px; 
+	border: 1px black solid;
+}
+
+#logo-block {
+    display: inline-block;
+    float: left;
+}
+
+#logo-one {
+    color: #3B6FDA;
+}
+
+#logo-two {
+    color: #000000;
+}
+
+#logo-three {
+    color: #3B6FDA;
+}
+
+
